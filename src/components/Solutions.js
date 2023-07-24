@@ -11,9 +11,9 @@ const Solutions = () => {
             <div className="w-full md:w-[50%]">
                 <img src={SolutionImg} className="w-full h-full object-cover"></img>
             </div>
-            <div className="bg-custom_green w-full md:w-[50%] text-custom_white py-[79px] md:py-[62px] px-[20px] md:px-[32px] lg:px-[24px] text-left flex flex-col gap-6">
+            <div className="bg-custom_green w-full md:w-[50%] text-custom_white py-[79px] md:py-[62px] px-[20px] md:px-[32px] lg:px-[24px] text-left flex flex-col justify-center gap-6">
                 <span className="text-18">{entryText}</span>
-                <h2 className="text-40 text-left">{title}</h2>
+                <h2 className="text-40-32 text-left">{title}</h2>
                 <p className="text-18">{description}</p>
                 <ReadMoreBtnTransparent />
             </div>
