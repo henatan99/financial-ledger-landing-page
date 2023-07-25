@@ -9,7 +9,10 @@ const ContentWithSideImage = (props) => {
             <div className="w-full md:w-[50%]">
                 <img src={image} className="w-full h-full object-cover"></img>
             </div>
-            <div className={`bg-${bgColor} w-full md:w-[50%] text-custom_white py-[79px] md:py-[62px] px-[20px] md:px-[32px] lg:px-[24px] text-left flex flex-col justify-center gap-6`}>
+            <div 
+                className={`w-full md:w-[50%] text-custom_white py-[79px] md:py-[62px] px-[20px] md:px-[32px] lg:px-[24px] text-left flex flex-col justify-center gap-6`}
+                style={{background: bgColor}}
+            >
                 <span className="text-18">{entryText}</span>
                 <h2 className="text-40-32 text-left">{title}</h2>
                 <p className="text-18">{description}</p>

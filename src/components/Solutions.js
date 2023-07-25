@@ -11,7 +11,7 @@ const Solutions = () => {
             entryText={entryText}
             title={title}
             description={description}
-            bgColor='custom_green'
+            bgColor='rgba(40, 167, 69, 1)'
             image={SolutionImg}
         />
     )

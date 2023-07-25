@@ -11,7 +11,7 @@ const BlogPost = () => {
             entryText={entryText}
             title={title}
             description={description}
-            bgColor='custom_blue'
+            bgColor='rgba(2, 132, 208, 1)'
             image={BlogPostImg}
             reverse={true}
         />

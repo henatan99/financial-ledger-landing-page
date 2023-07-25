@@ -5,6 +5,7 @@ import BizImg3 from '../assets/images/bizImg3.svg';
 import BizImg4 from '../assets/images/bizImg4.svg';
 import BizImg5 from '../assets/images/bizImg5.svg';
 import BizImg6 from '../assets/images/bizImg6.svg';
+import ContentWithGridImages from "./ContentWithGridImages";
 
 const BusinessCases = () => {
     const bizImages = [
@@ -21,21 +22,12 @@ const BusinessCases = () => {
     const description = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!';
 
     return (
-        <div className="px-[20px] md:px-[32px] lg:px-8 pt-[60px] lg:pt-[80px] pb-[50px] lg:pb-[70px] flex flex-col items-center gap-8 md:gap-10 text-custom_black">
-            <p className="text-18 w-[207px] md:w-full">{entryText}</p>
-            <h2 className="text-40-32 w-[207px] md:w-full">{title}</h2>
-            <p className="text-18 w-[207px] md:w-full">{description}</p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-4 w-full">
-                {
-                    bizImages && bizImages.length > 0 &&
-                    bizImages.map((img) => (
-                        <div key={img.id} className="">
-                            <img src={img.src} className="w-full h-full object-cover"></img>
-                        </div>
-                    ))
-                }
-            </div>
-        </div>
+        <ContentWithGridImages 
+            entryText={entryText}
+            title={title}
+            description={description}
+            bizImages={bizImages}
+        />
     )
 }
 
