@@ -1,0 +1,15 @@
+.bg_custom {
+    background-image: url('../assets/images/mainImageS.svg');
+}
+
+@media screen and (min-width: 768px) {
+    .bg_custom {
+        background-image: url('../assets/images/mainImageM.svg');
+    }
+}
+  
+@media screen and (min-width: 1024px) {
+    .bg_custom {
+        background-image: url('../assets/images/mainImageL.svg');
+    }
+}
