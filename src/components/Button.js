@@ -18,9 +18,8 @@ export const ReadMoreBtn = () => {
 export const ReadMoreBtnTransparent = () => {
     return (
         <button 
-            className='flex border-[1px] border-[rgba(255, 255, 255, 1)] rounded-[5px] w-[175px] h-[57px] text-custom_white gap-2'
+            className='flex items-center justify-center border-[1px] border-[rgba(255, 255, 255, 1)] rounded-[5px] w-[156px] h-[57px] text-custom_white gap-2'
         >
-            <img src={RightArrow}></img>
             <span>
                 Read More
             </span>
