@@ -19,7 +19,7 @@ const Header = () => {
                 <h1 className='text-55 text-custom_white'>
                     {title}
                 </h1>
-                <h2 className='text-40 text-custom_white'>
+                <h2 className='text-40-26 text-custom_white'>
                     {subtitle}
                 </h2>
                 <ReadMoreBtn solid={true} />
