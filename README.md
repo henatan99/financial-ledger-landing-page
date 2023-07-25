@@ -5,13 +5,13 @@ This is a landing page for financial ledger application.
 FIGMA design: `https://www.figma.com/file/pO5RLY8PIMn5u2bERJ6VK9/Land?type=design&node-id=0-1&mode=design&t=kiT4OKRsWOCY0XDP-0`  
 
 ### Desktop view
-![Screenshot](images/desktop.gif)
+![Screenshot](demoImages/desktop.gif)
 
 ### Mobile view
-![Screenshot](images/mobile.gif)
+![Screenshot](demoImages/tablet.gif)
 
 ### Product details
-![Screenshot](images/details.gif)
+![Screenshot](demoImages/mobile.gif)
 
 
 ## Built With
@@ -24,16 +24,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## SetUp 
 - Clone the repository 
-`https://github.com/henatan99/innoloft-frontend-app.git`
+`https://github.com/henatan99/financial-ledger-landing-page.git`
 
 - cd to the project directory 
-`innoloft-frontend-app`
+`financial-ledger-landing-page`
 
 - Install dependancies 
 `npm install`
-
-- Add `.env` file inside the root folder and add APP_ID=yourAppId, `yourAppId` must be either 1 or 2.
-
 
 ## Available Scripts for App Usage
 
@@ -83,7 +80,6 @@ Give a :star:️ if you like this project!
 ## Acknowledgment 
 
 - Facebook team who created creat-react-app API
-- [Innoloft](https://www.linkedin.com/company/innoloft/)
 
 ## :memo: License
 
